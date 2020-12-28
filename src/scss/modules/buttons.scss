@@ -1,0 +1,22 @@
+.button{
+    width: 168px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    &__cta{
+        background-color: $green;
+        color: $white;
+    }
+    &__secondary{
+        width: 153px;
+        background-color: $white;
+        color: $dark-green;
+        border: solid 1px $dark-green;
+    }
+    &__margin{
+        margin-bottom: 64px;
+    }
+}
+

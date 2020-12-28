@@ -1,11 +1,13 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/buttons.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap');
 
+
 body {
+  font-family: 'Raleway', sans-serif;
   background: $light-green;
   color: $dark-green;
   display: flex;
@@ -13,15 +15,20 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+  margin-top: 32px;
 }
 
 .main{
   background: $white;
     display: flex;
-    flex-direction: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    margin-top: 64px;
+    margin-top: 32px;
     border-radius: 16px;
 }
