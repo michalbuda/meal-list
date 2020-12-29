@@ -26,6 +26,28 @@ display: flex;
 flex-wrap: wrap;
 }
 
+.h1{
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 28px;
+}
+
+.h2{
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 28px;
+}
+
+.h3{
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 28px;
+}
+
+.header{
+  margin-bottom: 128px;
+}
+
 .logo{
   margin-top: 32px;
 }
@@ -43,6 +65,19 @@ flex-wrap: wrap;
     &__meal-page{
     justify-content: center;
     align-items: flex-start;
-    padding: 0 0 0 16px;
     }
+  .meal{
+    margin: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    background: #FEFEFE;
+    box-shadow: 0px 75px 80px rgba(148, 193, 31, 0.07), 0px 22.6103px 24.1177px rgba(148, 193, 31, 0.0456112), 0px 9.39116px 10.0172px rgba(148, 193, 31, 0.035), 0px 3.3966px 3.62304px rgba(148, 193, 31, 0.0243888);
+    border-radius: 16px;
+  }
+
+  .paragraph{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 28px;
+  }
 }

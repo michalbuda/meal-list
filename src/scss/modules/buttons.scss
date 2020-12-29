@@ -37,4 +37,16 @@
     &__margin{
         margin-bottom: 64px;
     }
+    &__description{
+        padding: 8px 16px;
+        width: 100px;
+        margin-left: 28px;
+    }
+    &__save{
+        color: $white;
+        margin-left: 28px;
+        padding: 8px 12px;
+        width: 100px;
+        border: none;
+    }
 }
