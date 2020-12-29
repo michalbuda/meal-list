@@ -1,0 +1,24 @@
+{
+  "name": "Dieta dla grubasa",
+  "short_name": "Dieta",
+  "theme_color": "#94C11F",
+  "background_color": "#F5FFDC",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/meal-list/",
+  "start_url": "/meal-list/",
+  "icons": [
+    {
+      "src": "pwa/manifest-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "pwa/manifest-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
