@@ -1,12 +1,12 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "Starter",
-  "theme_color": "#111",
-  "background_color": "#111",
+  "name": "Dieta dla grubasa",
+  "short_name": "Dieta",
+  "theme_color": "#94C11F",
+  "background_color": "#F5FFDC",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
-  "start_url": "/",
+  "scope": "/meal-list/",
+  "start_url": "/meal-list/",
   "icons": [
     {
       "src": "pwa/manifest-icon-192.png",
