@@ -30,22 +30,25 @@ flex-wrap: wrap;
   font-size: 24px;
   font-weight: 700;
   padding: 0 28px;
+  margin: 0 0 16px 0;
 }
 
 .h2{
   font-weight: 500;
   font-size: 18px;
   padding: 0 28px;
+  margin: 0 0 8px 0;
 }
 
 .h3{
   font-size: 14px;
   font-weight: 300;
   padding: 0 28px;
+  margin: 20px 0 8px 0;
 }
 
 .header{
-  margin-bottom: 128px;
+  margin-bottom: 32px;
 }
 
 .logo{
@@ -79,5 +82,8 @@ flex-wrap: wrap;
     font-size: 12px;
     font-weight: 500;
     padding: 0 28px;
+    margin: 0 0 8px 0;
+    text-decoration: none;
+    color: $dark-green;
   }
 }
