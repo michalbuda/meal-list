@@ -8,15 +8,33 @@
     &__cta{
         background-color: $green;
         color: $white;
+        &--small{
+            padding: 12px 32px;
+            width: 40px;
+            font-size: 12px;
+        }
+    }
+    &__day{
+        width: fit-content;
+        border-radius: 64px;
+        background-color: $white;
+        color: $green;
+        border: solid 1px $green;
+        font-size: 12px;
+        margin: 0px 16px 16px 0;
     }
     &__secondary{
         width: 153px;
         background-color: $white;
         color: $dark-green;
         border: solid 1px $dark-green;
+        &--small{
+            padding: 12px 32px;
+            width: 40px;
+            font-size: 12px;
+        }
     }
     &__margin{
         margin-bottom: 64px;
     }
 }
-
