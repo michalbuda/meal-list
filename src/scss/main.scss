@@ -55,8 +55,27 @@ flex-wrap: wrap;
   margin: 20px 0 8px 0;
 }
 
-img{
-  width: 288px;
+
+.image{
+  height: 189px;
+  border-radius: 16px 16px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__breakfast{
+    background-image: url("../assets/img/sniadanie.png");
+  }
+  &__sec-breakfast{
+    background-image: url("../assets/img/drugie-sniadanie.png");
+  }
+  &__lunch{
+    background-image: url("../assets/img/obiad.png");
+  }
+  &__dessert{
+    background-image: url("../assets/img/deser.png");
+  }
+  &__dinner{
+    background-image: url("../assets/img/kolacja.png");
+  }
 }
 
 .logo{
@@ -86,6 +105,7 @@ img{
 }
 
 .meal{
+  width: -webkit-fill-available;
   margin: 32px 16px;
   display: flex;
   flex-direction: column;
