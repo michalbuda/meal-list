@@ -78,24 +78,28 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     }
-  .meal{
-    margin: 32px 16px;
-    display: flex;
-    flex-direction: column;
-    background: #FEFEFE;
-    box-shadow: 0px 75px 80px rgba(148, 193, 31, 0.07), 0px 22.6103px 24.1177px rgba(148, 193, 31, 0.0456112), 0px 9.39116px 10.0172px rgba(148, 193, 31, 0.035), 0px 3.3966px 3.62304px rgba(148, 193, 31, 0.0243888);
-    border-radius: 16px;
-    padding-bottom: 28px;
-  }
+    &__home{
+      height: 80vh;
+    }
+}
 
-  .paragraph{
-    font-size: 12px;
-    font-weight: 500;
-    padding: 0 28px;
-    margin: 0 0 8px 0;
-    color: $dark-green;
-    line-height: 14px;
-  }
+.meal{
+  margin: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  background: #FEFEFE;
+  box-shadow: 0px 75px 80px rgba(148, 193, 31, 0.07), 0px 22.6103px 24.1177px rgba(148, 193, 31, 0.0456112), 0px 9.39116px 10.0172px rgba(148, 193, 31, 0.035), 0px 3.3966px 3.62304px rgba(148, 193, 31, 0.0243888);
+  border-radius: 16px;
+  padding-bottom: 28px;
+}
+
+.paragraph{
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 28px;
+  margin: 0 0 8px 0;
+  color: $dark-green;
+  line-height: 14px;
 }
 
 .scroll-back{
