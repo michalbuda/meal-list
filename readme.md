@@ -1,8 +1,9 @@
 # WARNING 
 It's just a raw demo. You can't actually save recipes for now. I'm working on synchronization with Firebase.
+For now it's optimalized for mobile only.
 
 ## Live demo here: https://michalbuda.github.io/meal-list
-For now it's optimalized for mobile only.
+
 
 # Available scripts
 
